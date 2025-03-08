@@ -1,0 +1,79 @@
+.navbar-brand img {
+    max-height: 30px;
+    width: auto;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-cards{
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%; 
+    transition: transform 0.3s;
+}
+
+.card-body {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+.card-body .btn{
+    width: auto;
+    align-self: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: rgba(3, 0, 36, 0.822) ;
+    width: 100%;
+    backdrop-filter: blur(5px); 
+    transition: background-color 0.3s ease; 
+}
+        
+body {
+    background: linear-gradient(90deg, #00020f,#00010a,#00020f);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#iconos {
+    color:white;
+} 
+
+footer ul li a {
+    font-size: 150%;
+}
+footer ul li a:hover {
+    color: rgb(0, 110, 255) !important;
+}
+
+.botonsubs:hover {
+    transform: scale(1.1) !important; 
+    transition: transform 0.3s ease-in-out !important; 
+}
